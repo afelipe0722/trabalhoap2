@@ -16,7 +16,7 @@ peso = float(input('peso: '))
 idade = int(input('idade: '))
 
 pessoa=Pessoa(nome,idade,altura,peso)
-print(f'imc={pessoa.imc()}')
+print('imc= {:.2f}'.format(pessoa.imc()))
 
 
 
